@@ -1,0 +1,52 @@
+.header{
+    background-image: linear-gradient(to bottom, #47daee, black);
+    position: relative;
+    height: 400px;
+    text-align: center;
+    padding: 5%;
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+      background-image: linear-gradient(to bottom, #47eeb6, black);
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .header {
+      background-image: linear-gradient(to bottom, #ddee47, black);
+    }
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.h1{
+    color: white;
+    text-align: center;
+}
+
+#mainBody{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 5%;
+}
+
+.h2{
+    color: darkcyan;
+}
+
+.alignRight{
+    text-align: end;
+}
+
+.footer{
+    background-color: #011c21;
+    color: white;
+    text-align: center;
+    padding: 2.5%;
+}
